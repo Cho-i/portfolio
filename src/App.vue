@@ -12,7 +12,6 @@
 	import List from './components/List.vue'
 	import View from './components/View.vue'
 	import Footer from './components/Footer.vue'
-	//import json from 'data.json'
 
 	export default {
 		name: 'app',
@@ -22,7 +21,6 @@
 			'List':List,
 			'View':View,
 			'Footer':Footer,
-
 		}
 	}
 
