@@ -1,0 +1,40 @@
+@mixin menuStyle{
+  position:relative;
+  display:inline-block;
+  width:5px;
+  height:5px;
+  background:#252626;
+  border-radius:5px;
+}
+@mixin transition{
+  -webkit-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+}
+@mixin menuEffect{
+  -webkit-animation:effect 0.5s linear alternate;
+  animation:effect 0.5s linear alternate;
+  @-webkit-keyframes effect{
+    0%{top:0;}
+    50%{top:-10px;}
+    100%{top:0;}
+  }
+  @keyframes effect{
+    0%{top:0;}
+    50%{top:-10px;}
+    100%{top:0;}
+  }
+}
+@mixin bounceEffect{
+  -webkit-animation:bounce 3s infinite alternate both;
+  animation:bounce 3s infinite alternate both;
+  @-webkit-keyframes bounce {
+    0%, 20%, 45%, 70%, 100%{transform:translateY(0);}
+    40%{transform:translateY(-30px);}
+    50%{transform:translateY(-15px);}
+  }
+  @keyframes bounce {
+    0%, 20%, 45%, 70%, 100%{transform:translateY(0);}
+    40%{transform:translateY(-30px);}
+    50%{transform:translateY(-15px);}
+  }
+}
