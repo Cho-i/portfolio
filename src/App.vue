@@ -12,6 +12,7 @@
 	import List from './components/List.vue'
 	import View from './components/View.vue'
 	import Footer from './components/Footer.vue'
+	import Json from './data.json'
 
 	export default {
 		name: 'app',
