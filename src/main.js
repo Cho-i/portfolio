@@ -15,10 +15,10 @@ const View = App.components.View;
 
 const routes = [
 	{
-		path:'',
+		path:'/',
 		component:Content,
 		children:[
-			{path:'',component:List}
+			{path:'/',component:List}
 		]
 	},
 	{
@@ -28,6 +28,7 @@ const routes = [
 ];
 
 const router = new VueRouter({
+	base:'/app',
 	mode:'history',
 	routes
 });
