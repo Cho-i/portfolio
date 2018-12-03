@@ -6,9 +6,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.config.productionTip = false;
-
-Vue.use(BootstrapVue);
 Vue.use(VueRouter);
+Vue.use(BootstrapVue);
 
 const Content = App.components.Content;
 const List = App.components.List;
@@ -16,7 +15,7 @@ const View = App.components.View;
 
 const routes = [
 	{
-		path:'/',
+		path:'',
 		component:Content,
 		children:[
 			{path:'',component:List}
