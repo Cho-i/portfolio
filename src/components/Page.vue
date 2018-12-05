@@ -12,6 +12,13 @@
 					</b-col>
 				</b-row>
 			</b-container>
+			<!--<ul class="list-skills">
+				<li v-if="this.propsdata[this.selectedItem].htmlSkill!=''"><i class="icon-html">HTML</i></li>
+				<li v-if="this.propsdata[this.selectedItem].cssSkill!=''"><i class="icon-css">CSS</i></li>
+				<li v-if="this.propsdata[this.selectedItem].sassSkill!=''"><i class="icon-sass">Sass</i></li>
+				<li v-if="this.propsdata[this.selectedItem].jquerySkill!=''"><i class="icon-jquery">jquery</i></li>
+				<li v-if="this.propsdata[this.selectedItem].vueSkill!=''"><i class="icon-vue">Vue.js</i></li>
+			</ul>-->
 		</div>
 
 	</div>
@@ -19,7 +26,8 @@
 
 <script>
 	export default {
-
+		/*name:'view',
+	  props: ['propsdata', 'selectedItem']*/
 	}
 </script>
 

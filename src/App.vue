@@ -1,7 +1,7 @@
 <template>
 	<div id="app">
-		<Header></Header>
-		<router-view></router-view>
+		<Header v-bind:propsdata="projectList"></Header>
+		<router-view v-bind:propsdata="projectList"></router-view>
 		<Footer></Footer>
 	</div>
 </template>
@@ -10,9 +10,9 @@
 	import Header from './components/Header.vue'
 	import Content from './components/Content.vue'
 	import List from './components/List.vue'
-	import View from './components/View.vue'
+	import Page from './components/Page.vue'
 	import Footer from './components/Footer.vue'
-	import Json from './data.json'
+	import json from './data/data.json'
 
 	export default {
 		name: 'app',
@@ -20,9 +20,24 @@
 			'Header':Header,
 		    'Content':Content,
 			'List':List,
-			'View':View,
-			'Footer':Footer,
-		}
+			'Page':Page,
+			'Footer':Footer
+		},
+		data() {
+			return {
+				projectList: []
+			}
+		},
+		created(){
+			if(json.sample.length > 0){
+				for(var i = 0; i < json.sample.length; i++){
+					this.projectList.push(json.sample[i]);
+				}
+			}
+		},
+	    methods:{
+
+	    }
 	}
 
 </script>

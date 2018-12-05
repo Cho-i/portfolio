@@ -1,6 +1,6 @@
 <template>
 	<div class="contents">
-		<div id="visual">
+		<!--<div id="visual">
 			<div class="top-bg">
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 1920 930" enable-background="new 0 0 1920 930" xml:space="preserve">
 				<g id="object2">
@@ -36,8 +36,8 @@
 					</b-col>
 				</b-row>
 			</b-container>
-		</div>
-		<router-view></router-view>
+		</div>-->
+		<router-view v-bind:propsdata="projectList"></router-view>
 	</div>
 
 
@@ -45,6 +45,12 @@
 
 <script>
 	export default {
+	    props:['propsdata'],
+		data() {
+			return {
+				projectList:this.propsdata
+			}
+		},
 		methods:{
 			handleScroll(){
 				var y = window.innerHeight;
