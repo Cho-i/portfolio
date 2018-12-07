@@ -11,14 +11,13 @@ export default new VueRouter({
 	mode:'history',
 	routes:[
 		{
-			path:'/index',
+			path:'/main',
 			component:Content
 		},
 		{
 			path:'/page/:id',
 			name:'view',
-			component:Page,
-			meta:{transitionName:'zoom'}
+			component:Page
 		}
 	]
 })
