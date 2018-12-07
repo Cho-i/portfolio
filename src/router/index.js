@@ -17,7 +17,8 @@ export default new VueRouter({
 		{
 			path:'/page/:id',
 			name:'view',
-			component:Page
+			component:Page,
+			meta:{transitionName:'zoom'}
 		}
 	]
 })
