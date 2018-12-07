@@ -5,7 +5,6 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter);
 
 const Content = App.components.Content;
-const List = App.components.List;
 const Page = App.components.Page;
 
 export default new VueRouter({
@@ -13,13 +12,11 @@ export default new VueRouter({
 	routes:[
 		{
 			path:'/index',
-			component:Content,
-			children:[
-				{path:':id',name:'show',component:List}
-			]
+			component:Content
 		},
 		{
 			path:'/page/:id',
+			name:'view',
 			component:Page
 		}
 	]

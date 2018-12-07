@@ -1,6 +1,6 @@
 <template>
 	<div class="contents">
-		<!--<div id="visual">
+		<div id="visual">
 			<div class="top-bg">
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 1920 930" enable-background="new 0 0 1920 930" xml:space="preserve">
 				<g id="object2">
@@ -36,8 +36,24 @@
 					</b-col>
 				</b-row>
 			</b-container>
-		</div>-->
-		<router-view v-bind:propsdata="projectList"></router-view>
+		</div>
+		<div id="list">
+			<b-container>
+				<b-row>
+					<b-col>
+						<h3>home</h3>
+					</b-col>
+				</b-row>
+				<b-row>
+					<b-col md="4" v-for="(project, key) in propsdata" v-bind:key="project.id">
+						<router-link :to="{name:'view',params:{id:key}}" >
+							<img v-bind:src="project.img" alt="">
+							<span>{{project.title}}</span>
+						</router-link>
+					</b-col>
+				</b-row>
+			</b-container>
+		</div>
 	</div>
 
 
@@ -48,7 +64,7 @@
 	    props:['propsdata'],
 		data() {
 			return {
-				projectList:this.propsdata
+				//projectList:this.propsdata
 			}
 		},
 		methods:{

@@ -3,7 +3,7 @@
 		<b-container>
 			<b-row>
 				<b-col>
-					<h3>{{this.propsdata[this.item].name}}</h3>
+					<h3>{{this.propsdata[this.sitem].name}}</h3>
 				</b-col>
 			</b-row>
 			<b-row>
@@ -13,38 +13,37 @@
 						<span>Events</span>
 					</router-link>
 				</b-col>-->
-				<b-col md="4" v-for="(value) in this.propsdata[this.item].data" v-bind:key="value.id">
-					<router-link to="/page">
+
+				<b-col md="4" v-for="(value) in this.propsdata[this.sitem].data" v-bind:key="value.id">
+					<router-link :to="{name:'view',params:{id:value.id}}" >
 						<img v-bind:src="value.img" alt="">
 						<span>{{value.title}}</span>
 					</router-link>
 				</b-col>
 			</b-row>
 		</b-container>
-
 	</div>
 </template>
 
 <script>
 	export default {
-		props:['propsdata'],
+		props:['propsdata','sitem'],
 		data(){
 			return{
-			    item:0
+			    //item:0
 			}
 		},
 		created(){
-			this.fetchData()
+			//this.fetchData();
 		},
 		watch:{
-		  '$route':'fetchData'
+		  //'$route':'fetchData'
 		},
-        methods:{
-			fetchData(){
-				this.item = this.$route.params.id
-			}
-
-        }
+		methods:{
+			/*fetchData(){
+				this.item = this.$route.params.id;
+			}*/
+		}
 	}
 </script>
 

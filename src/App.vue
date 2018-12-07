@@ -1,7 +1,9 @@
 <template>
 	<div id="app">
-		<Header v-bind:propsdata="projectList"></Header>
-		<router-view v-bind:propsdata="projectList"></router-view>
+		<Header></Header>
+		<transition name="fade" mode="out-in">
+			<router-view v-bind:propsdata="projectList"></router-view>
+		</transition>
 		<Footer></Footer>
 	</div>
 </template>
@@ -9,7 +11,6 @@
 <script>
 	import Header from './components/Header.vue'
 	import Content from './components/Content.vue'
-	import List from './components/List.vue'
 	import Page from './components/Page.vue'
 	import Footer from './components/Footer.vue'
 	import json from './data/data.json'
@@ -19,7 +20,6 @@
 		components:{
 			'Header':Header,
 		    'Content':Content,
-			'List':List,
 			'Page':Page,
 			'Footer':Footer
 		},
@@ -34,6 +34,7 @@
 					this.projectList.push(json.sample[i]);
 				}
 			}
+
 		},
 	    methods:{
 

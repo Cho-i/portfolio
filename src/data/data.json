@@ -1,54 +1,29 @@
 {
 	"sample":[
 		{
-			"name":"About0",
-			"data":[
-				{
-					"id":0,
-					"title":"test1",
-					"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg"
-				},
-				{
-					"id":1,
-					"title":"test2",
-					"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg"
-				},
-				{
-					"id":2,
-					"title":"test3",
-					"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg"
-				},
-				{
-					"id":3,
-					"title":"test4",
-					"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg"
-				}
-			]
+			"title":"test1",
+			"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg",
+			"text":"We offer classes for all ages throughout the year. If you don't see the perfect class, we'll start one!"
 		},
 		{
-			"name":"About1",
-			"data":[
-				{
-					"id":4,
-					"title":"test5",
-					"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg"
-				},
-				{
-					"id":5,
-					"title":"test6",
-					"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg"
-				},
-				{
-					"id":6,
-					"title":"test7",
-					"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg"
-				},
-				{
-					"id":7,
-					"title":"test8",
-					"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg"
-				}
-			]
+			"title":"test2",
+			"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg",
+			"text":"We offer classes for all ages throughout the year. If you don't see the perfect class, we'll start one!"
+		},
+		{
+			"title":"test3",
+			"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg",
+			"text":"We offer classes for all ages throughout the year. If you don't see the perfect class, we'll start one!"
+		},
+		{
+			"title":"test4",
+			"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg",
+			"text":"We offer classes for all ages throughout the year. If you don't see the perfect class, we'll start one!"
+		},
+		{
+			"title":"test5",
+			"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg",
+			"text":"We offer classes for all ages throughout the year. If you don't see the perfect class, we'll start one!"
 		}
 	]
 }
