@@ -1,6 +1,6 @@
 <template>
 	<header>
-		<h1 id="logo">HELLO</h1>
+		<h1 id="logo">CHO-I</h1>
 		<button id="menu" v-on:click="show=!show" v-bind:class="{on:show}"><span></span></button>
 		<transition name="slide">
 			<div class="menu-wrap" v-if="show">

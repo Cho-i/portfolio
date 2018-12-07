@@ -26,7 +26,7 @@
 				<b-row>
 					<b-col>
 						<div class="title">
-							<h2>Art Classes and Camps for Kids</h2>
+							<h2>My Web<br>Portfolio</h2>
 						</div>
 					</b-col>
 				</b-row>
@@ -41,7 +41,7 @@
 			<b-container>
 				<b-row>
 					<b-col>
-						<h3>home</h3>
+						<h3>Project</h3>
 					</b-col>
 				</b-row>
 				<b-row>
@@ -64,7 +64,7 @@
 	    props:['propsdata'],
 		data() {
 			return {
-				//projectList:this.propsdata
+				
 			}
 		},
 		methods:{

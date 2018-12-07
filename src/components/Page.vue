@@ -1,7 +1,7 @@
 <template>
 	<div class="contents">
 		<div class="view-bg">
-			<img src="//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg" alt="">
+			<img v-bind:src="this.propsdata[this.idx].img" alt="">
 			<h2>{{this.propsdata[this.idx].title}}</h2>
 		</div>
 		<div class="view-cont">
