@@ -14,6 +14,9 @@
 								<li>
 									<router-link to="/index">HOME</router-link>
 								</li>
+								<li>
+									<router-link to="/index">About</router-link>
+								</li>
 							</ul>
 						</b-col>
 					</b-row>
