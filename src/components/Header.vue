@@ -9,7 +9,7 @@
 						<b-col>
 							<ul>
 								<li>
-									<router-link to="/">HOME</router-link>
+									<router-link to="/main">HOME</router-link>
 								</li>
 								<li>
 									<router-link to="/about">About</router-link>
