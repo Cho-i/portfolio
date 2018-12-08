@@ -47,7 +47,7 @@
 				<b-row>
 					<b-col md="4" v-for="(project, key) in propsdata" v-bind:key="project.id">
 						<router-link :to="{name:'view',params:{id:key}}" >
-							<img v-bind:src="project.img" alt="">
+							<img v-bind:src="project.mainImg" alt="">
 							<span>{{project.title}}</span>
 						</router-link>
 					</b-col>
@@ -62,11 +62,6 @@
 <script>
 	export default {
 	    props:['propsdata'],
-		data() {
-			return {
-				
-			}
-		},
 		methods:{
 			handleScroll(){
 				var y = window.innerHeight;

@@ -1,29 +1,312 @@
 {
-	"sample":[
+	"project":[
 		{
-			"title":"test1",
-			"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg",
-			"text":"We offer classes for all ages throughout the year. If you don't see the perfect class, we'll start one!"
+			"id":"0",
+			"title":"HS애드 대학생 광고대상",
+			"period":"2016.05",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 100%",
+			"mainImg":"../src/images/page/img_contest.jpg",
+			"subImg":"../src/images/page/img_contest_sub.jpg",
+			"link":"https://contest.hsad.co.kr",
+			"des":"html/css/jquery/IE9",
+			"desFull":"HS애드 대학생 광고대상 리뉴얼 구축 프로젝트 입니다. IE9 이상부터 사용되며 Cross-browsing을 적용한 웹사이트 입니다."
 		},
 		{
-			"title":"test2",
-			"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg",
-			"text":"We offer classes for all ages throughout the year. If you don't see the perfect class, we'll start one!"
+			"id":"1",
+			"title":"HS Ad CHINA 대한항공 위챗",
+			"period":"2016.07",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 100%",
+			"mainImg":"../src/images/page/img_wechat.jpg",
+			"subImg":"../src/images/page/img_wechat_sub.jpg",
+			"link":"",
+			"des":"html/css/jquery/Mobile",
+			"desFull":"HS Ad CHINA 대한항공 위챗 프로젝트 입니다. 위챗에서 보여질 중국 대한항공 모바일 사이트 입니다."
 		},
 		{
-			"title":"test3",
-			"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg",
-			"text":"We offer classes for all ages throughout the year. If you don't see the perfect class, we'll start one!"
+			"id":"2",
+			"title":"한국화장품 브랜드 효움",
+			"period":"2016.09 - 2016.10",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 100%",
+			"mainImg":"../src/images/page/img_hyoum.jpg",
+			"subImg":"../src/images/page/img_hyoum_sub.jpg",
+			"link":"http://www.hyoum.co.kr",
+			"des":"html/css/jquery/bootstrap/IE9",
+			"desFull":"한국화장품 브랜드 효움 마이크로 사이트 구축 프로젝트 입니다. IE9 이상부터 사용되며 Cross-browsing과 bootstrap을 적용한 반응형 웹 사이트 입니다."
 		},
 		{
-			"title":"test4",
-			"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg",
-			"text":"We offer classes for all ages throughout the year. If you don't see the perfect class, we'll start one!"
+			"id":"3",
+			"title":"한국화장품 브랜드 닥터메딕스",
+			"period":"2017.01",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 100%",
+			"mainImg":"../src/images/page/img_drmedix.jpg",
+			"subImg":"../src/images/page/img_drmedix_sub.jpg",
+			"link":"http://www.drmedix.co.kr",
+			"des":"html/css/jquery/bootstrap/IE9",
+			"desFull":"한국화장품 브랜드 닥터메딕스 마이크로 사이트 구축 프로젝트 입니다. IE9 이상부터 사용되며 Cross-browsing과 bootstrap을 적용한 반응형 웹 사이트 입니다."
 		},
 		{
-			"title":"test5",
-			"img":"//scontent.cdninstagram.com/vp/911ee108e2dd172239f06b7955fc12e5/5C91E4D1/t51.2885-15/sh0.08/e35/s640x640/44257867_331718630744405_4354345094833049529_n.jpg",
-			"text":"We offer classes for all ages throughout the year. If you don't see the perfect class, we'll start one!"
+			"id":"4",
+			"title":"SK건설 웹진",
+			"period":"2016.01, 2017.01",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 100%",
+			"mainImg":"../src/images/page/img_skeyes.jpg",
+			"subImg":"../src/images/page/img_skeyes_sub.jpg",
+			"link":"http://skeyes.skec.com",
+			"des":"html/css/jquery/bootstrap/IE8+",
+			"desFull":"SK건설 웹진 2016년 2017년 리뉴얼 프로젝트 입니다. IE8 이상부터 사용되며 Cross-browsing과 bootstrap을 적용한 반응형 웹 사이트 입니다."
+		},
+		{
+			"id":"5",
+			"title":"신화정보통신 커플위험체크",
+			"period":"2016.12 - 2017.01",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 90%",
+			"mainImg":"../src/images/page/img_check.jpg",
+			"subImg":"../src/images/page/img_check_sub.jpg",
+			"link":"http://couple.dbdip.com/couple2/#/dashboard.html",
+			"des":"html/css/jquery/bootstrap/IE9",
+			"desFull":"신화정보통신 커플위험체크 웹앱 구축 프로젝트 입니다. IE9 이상부터 사용되며 Cross-browsing과 bootstrap을 적용한 반응형 웹앱 입니다."
+		},
+		{
+			"id":"6",
+			"title":"한국화장품 공식 사이트",
+			"period":"2015.12 - 2016.04",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 80%",
+			"mainImg":"../src/images/page/img_hankook.jpg",
+			"subImg":"../src/images/page/img_hankook_sub.jpg",
+			"link":"http://www.ihkcos.co.kr",
+			"des":"html/css/jquery/bootstrap/IE8+",
+			"desFull":"한국화장품 공식 사이트 리뉴얼 구축 프로젝트 입니다. IE8 이상부터 사용되며 Cross-browsing과 bootstrap을 적용한 반응형 웹 사이트 입니다."
+		},
+		{
+			"id":"7",
+			"title":"페르노리카 코리아",
+			"period":"2015.05",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 50%",
+			"mainImg":"../src/images/page/img_prk.jpg",
+			"subImg":"../src/images/page/img_prk_sub.jpg",
+			"link":"http://ezine.pernod-ricard-korea.com",
+			"des":"html/css/jquery/bootstrap/IE8+",
+			"desFull":"페르노리카 코리아 E-Zine 구축 프로젝트 입니다. IE8 이상부터 사용되며 Cross-browsing과 bootstrap을 적용한 반응형 웹 사이트 입니다."
+		},
+		{
+			"id":"8",
+			"title":"한국화장품 브랜드 산심 사이트",
+			"period":"2015.05 - 2015.09",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 30%",
+			"mainImg":"../src/images/page/img_sansim.jpg",
+			"subImg":"../src/images/page/img_sansim_sub.jpg",
+			"link":"http://www.sansim.co.kr",
+			"des":"html/css/jquery/bootstrap/IE8+",
+			"desFull":"한국화장품 브랜드 산심 사이트 리뉴얼 구축 프로젝트 입니다. IE8 이상부터 사용되며 Cross-browsing과 bootstrap을 적용한 반응형 웹 사이트 입니다."
+		},
+		{
+			"id":"9",
+			"title":"SBS 골프 모바일",
+			"period":"2016.07",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 30%",
+			"mainImg":"../src/images/page/img_sbsgolf.jpg",
+			"subImg":"../src/images/page/img_sbsgolf_sub.jpg",
+			"link":"http://m.sbsgolf.com",
+			"des":"html/css/jquery/Mobile",
+			"desFull":"SBS Golf 모바일 웹앱 리뉴얼 구축 프로젝트 입니다."
+		},
+		{
+			"id":"10",
+			"title":"HS 애드 홈페이지",
+			"period":"2016.09 - 2016.12",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 30%",
+			"mainImg":"../src/images/page/img_hsad.jpg",
+			"subImg":"../src/images/page/img_hsad_sub.jpg",
+			"link":"http://www.hsad.co.kr",
+			"des":"html/css/jquery/bootstrap/IE8+/웹접근성",
+			"desFull":"HS Ad 홈페이지 리뉴얼 구축 프로젝트 입니다. IE8 이상부터 사용되며 Cross-browsing과 bootstrap을 적용하여 웹 접근성 인증을 받은 반응형 웹 사이트 입니다."
+		},
+		{
+			"id":"11",
+			"title":"GIIR 홈페이지",
+			"period":"2016.09 - 2016.12",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 30%",
+			"mainImg":"../src/images/page/img_g2r.jpg",
+			"subImg":"../src/images/page/img_g2r_sub.jpg",
+			"link":"http://www.g2rgroup.com",
+			"des":"html/css/jquery/bootstrap/IE8+/웹접근성",
+			"desFull":"GIIR 홈페이지 리뉴얼 구축 프로젝트 입니다. IE8 이상부터 사용되며 Cross-browsing과 bootstrap을 적용하여 웹 접근성 인증을 받은 반응형 웹 사이트 입니다."
+		},
+		{
+			"id":"12",
+			"title":"서민금융통합지원센터",
+			"period":"2016.11",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 30%",
+			"mainImg":"../src/images/page/img_ccfs.jpg",
+			"subImg":"../src/images/page/img_ccfs_sub.jpg",
+			"link":"http://www.ccfs.or.kr",
+			"des":"html/css/jquery/IE10",
+			"desFull":"서민금융통합지원센터 구축 프로젝트 입니다. IE10 이상부터 사용되며 Cross-browsing을 적용한 웹사이트 입니다."
+		},
+		{
+			"id":"13",
+			"title":"BNP파리바 카디프손해보험",
+			"period":"2016.11",
+			"role":"구축 메인 퍼블리싱 담당/작업 기여도 30%",
+			"mainImg":"../src/images/page/img_cardifcare.jpg",
+			"subImg":"../src/images/page/img_cardifcare_sub.jpg",
+			"link":"https://www.cardifcare.co.kr",
+			"des":"html/css/jquery/IE8+/웹접근성",
+			"desFull":"BNP파리바 카디프손해보험 리뉴얼 구축 프로젝트 입니다. IE8 이상부터 사용되며 Cross-browsing을 적용하여 웹 접근성 인증을 받은 웹, 모바일 사이트 입니다."
+		},
+		{
+			"id":"14",
+			"title":"영상물등급위원회",
+			"period":"2015.05 – 2016.02",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect01.jpg",
+			"subImg":"",
+			"link":"http://www.kmrb.or.kr",
+			"des":"html/css/jquery/IE9/웹접근성",
+			"desFull":"영상물등급위원회 사이트 유지보수 업무를 담당하였습니다."
+		},
+		{
+			"id":"15",
+			"title":"KB저축은행",
+			"period":"2015.05 – 2016.05",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect02.jpg",
+			"subImg":"",
+			"link":"http://www.kmrb.or.kr",
+			"des":"html/css/jquery/IE8+/웹접근성",
+			"desFull":"KB저축은행 사이트 유지보수 업무를 담당하였습니다."
+		},
+		{
+			"id":"16",
+			"title":"카디프생명",
+			"period":"2015.05 – 2016.11",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect03.jpg",
+			"subImg":"",
+			"link":"https://www.cardif.co.kr",
+			"des":"html/css/jquery/IE8+",
+			"desFull":"카디프생명 사이트 유지보수 업무를 담당하였습니다."
+		},
+		{
+			"id":"17",
+			"title":"스타저축은행",
+			"period":"2015.05 – 2017.01",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect04.jpg",
+			"subImg":"",
+			"link":"http://www.e-starbank.co.kr/",
+			"des":"html/css/jquery/IE8+",
+			"desFull":"스타저축은행 사이트 유지보수 업무를 담당하였습니다."
+		},
+		{
+			"id":"18",
+			"title":"동서식품",
+			"period":"2015.05 – 2017.01",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect05.jpg",
+			"subImg":"",
+			"link":"https://www.dongsuh.co.kr",
+			"des":"html/css/jquery/IE8+",
+			"desFull":"동서식품 사이트 유지보수 업무를 담당하였습니다."
+		},
+		{
+			"id":"19",
+			"title":"해커스 금융",
+			"period":"2017.11 - 2018.06",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect06.jpg",
+			"subImg":"",
+			"link":"https://fn.hackers.com",
+			"des":"html/css/jquery/IE9",
+			"desFull":"해커스 금융 사이트 유지보수 업무를 담당하였습니다."
+		},
+		{
+			"id":"20",
+			"title":"해커스 공인중개사",
+			"period":"2017.11 - 2018.06",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect07.jpg",
+			"subImg":"",
+			"link":"https://land.hackers.com",
+			"des":"html/css/jquery/IE9",
+			"desFull":"해커스 공인중개사 사이트 유지보수 업무를 담당하였습니다."
+		},
+		{
+			"id":"21",
+			"title":"해커스 영어",
+			"period":"2017.11 - 2018.06",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect08.jpg",
+			"subImg":"",
+			"link":"https://www.hackers.co.kr/",
+			"des":"html/css/jquery/IE9",
+			"desFull":"해커스 영어 사이트 유지보수 업무를 담당하였습니다."
+		},
+		{
+			"id":"22",
+			"title":"해커스 잡",
+			"period":"2017.11 - 2018.06",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect09.jpg",
+			"subImg":"",
+			"link":"https://www.hackersjob.com",
+			"des":"html/css/jquery/IE9",
+			"desFull":"해커스 잡 사이트 유지보수 업무를 담당하였습니다."
+		},
+		{
+			"id":"23",
+			"title":"해커스 어학원",
+			"period":"2017.07 - 2018.10",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect10.jpg",
+			"subImg":"",
+			"link":"https://www.hackers.ac",
+			"des":"html/css/jquery/IE9",
+			"desFull":"해커스 어학원 사이트 유지보수 업무를 담당하였습니다."
+		},
+		{
+			"id":"24",
+			"title":"해커스 편입",
+			"period":"2017.07 - 현재",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect11.jpg",
+			"subImg":"",
+			"link":"https://www.hackersut.com",
+			"des":"html/css/jquery/IE9",
+			"desFull":"해커스 편입 사이트 유지보수 업무를 담당하였습니다."
+		},
+		{
+			"id":"25",
+			"title":"위더스",
+			"period":"2017.07 - 현재",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect12.jpg",
+			"subImg":"",
+			"link":"http://www.edu2080.co.kr",
+			"des":"html/css/jquery/IE8+",
+			"desFull":"위더스 사이트 유지보수 업무를 담당하였습니다."
+		},
+		{
+			"id":"26",
+			"title":"한울",
+			"period":"2017.07 - 현재",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect13.jpg",
+			"subImg":"",
+			"link":"https://www.paranhanul.net/",
+			"des":"html/css/jquery/IE8+",
+			"desFull":"한울 사이트 유지보수 업무를 담당하였습니다."
+		},
+		{
+			"id":"27",
+			"title":"해커스 HRD",
+			"period":"2017.07 - 현재",
+			"role":"유지보수",
+			"mainImg":"../src/images/page/img_ect14.jpg",
+			"subImg":"",
+			"link":"https://www.hackershrd.com/",
+			"des":"html/css/jquery/IE10",
+			"desFull":"해커스 HRD 사이트 유지보수 업무를 담당하였습니다."
 		}
 	]
 }

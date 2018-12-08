@@ -13,6 +13,7 @@
 	import Content from './components/Content.vue'
 	import Page from './components/Page.vue'
 	import Footer from './components/Footer.vue'
+	import About from './components/About.vue'
 	import json from './data/data.json'
 
 	export default {
@@ -21,7 +22,8 @@
 			'Header':Header,
 		    'Content':Content,
 			'Page':Page,
-			'Footer':Footer
+			'Footer':Footer,
+			'About':About
 		},
 		data() {
 			return {
@@ -29,16 +31,12 @@
 			}
 		},
 		created(){
-			if(json.sample.length > 0){
-				for(var i = 0; i < json.sample.length; i++){
-					this.projectList.push(json.sample[i]);
+			if(json.project.length > 0){
+				for(var i = 0; i < json.project.length; i++){
+					this.projectList.push(json.project[i]);
 				}
 			}
-
-		},
-	    methods:{
-
-	    }
+		}
 	}
 
 </script>

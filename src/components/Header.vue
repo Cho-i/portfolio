@@ -8,14 +8,11 @@
 					<b-row>
 						<b-col>
 							<ul>
-								<!--<li v-for="(value, key) in this.propsdata" v-bind:key="value.id">
-									<router-link :to="{name:'show',params:{id:key}}">{{value.name}}</router-link>
-								</li>-->
 								<li>
-									<router-link to="/index">HOME</router-link>
+									<router-link to="/">HOME</router-link>
 								</li>
 								<li>
-									<router-link to="/index">About</router-link>
+									<router-link to="/about">About</router-link>
 								</li>
 							</ul>
 						</b-col>
@@ -28,14 +25,10 @@
 
 <script>
 	export default {
-	    //props:['propsdata'],
 		data(){
 			return{
 			  show:false
 			}
-		},
-		methods: {
-
 		}
 	}
 </script>
