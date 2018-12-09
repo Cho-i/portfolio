@@ -12,7 +12,7 @@
 									<router-link to="/main">HOME</router-link>
 								</li>
 								<li>
-									<router-link to="/about">About</router-link>
+									<router-link to="/about">ABOUT</router-link>
 								</li>
 							</ul>
 						</b-col>
