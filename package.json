@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
-    "bootstrap-vue": "^2.0.0-rc.11",
+    "bootstrap-vue": "^2.0.0-rc.12",
     "jquery": "^3.3.1",
     "vue": "^2.5.11",
     "vue-fullpage.js": "^0.1.0",
